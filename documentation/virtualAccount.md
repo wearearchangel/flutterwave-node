@@ -21,7 +21,7 @@ Note: BVN is required for creating static account numbers in the Live Environmen
 Kindly visit our API section found [here](https://developer.flutterwave.com/reference#create-a-virtual-account-number-1) for more information.
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -77,7 +77,7 @@ Sample Response
 This describes how to create bulk virtual account numbers
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -124,7 +124,7 @@ Sample Response
 This describes how to fetch bulk virtual account numbers using batch id
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -228,7 +228,7 @@ Sample Response
 This describes how to fetch a virtual account number using order reference
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 

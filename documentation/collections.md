@@ -40,7 +40,7 @@ This section describes how you can collect card payments in the SDK. You can lea
 > Kindly note that `enckey` is your encryption key. You can get this from your API setting in the dashboard. You can check [here](https://developer.flutterwave.com/docs/integration-guides/authentication) to get more information on how to get your encryption key.
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 const open = require('open');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY);
@@ -112,7 +112,7 @@ chargeCard();
 This section covers how you can collect payments made via bank transfers. We go into more details on the payment flow itself [here](https://developer.flutterwave.com/docs/direct-charge/bank-transfer).
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY);
 
 const  bank_trf = async () => {
@@ -171,7 +171,7 @@ This section covers how you can collect payments made via your customers' bank a
 
 ```javascript
 
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY);
 
 const charge_ng_acct = async () => {
@@ -247,7 +247,7 @@ Sample Response
 This section covers how you make EUR and GBP collections via your customers' bank accounts. The customer is redirected to an interface where they select their bank and authorize the payment via their bank apps. We go into more details on the payment flow itself [here](https://developer.flutterwave.com/docs/direct-charge/uk-bank-account).
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY);
 
 const charge_uk_acct = async () => {
@@ -325,7 +325,7 @@ Sample Response
 This shows you how to accept ZAR and USD  ACH charges from your customers.  We go into more details on the payment flow itself [here](https://developer.flutterwave.com/docs/direct-charge/ach-payment).
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY);
 
 const ach_payment = async () => {
@@ -403,7 +403,7 @@ Sample Response
 This shows you how to accept payments via Direct USSD charge. You call our API to create a charge, then your customer completes the payment by dialling their bank's USSD code on their mobile phone.  We go into more details on the payment flow itself [here](https://developer.flutterwave.com/docs/direct-charge/ussd).
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY);
 
 const ussd = async () => {
@@ -479,7 +479,7 @@ Sample Response
 This describes how to collect ZAR payments offline using Vouchers
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY);
 
 const charg_voucher = async () => {
@@ -512,7 +512,7 @@ charg_voucher();
 This describes how to collect payments via Mpesa. Read more about Mpesa payments [here](https://developer.flutterwave.com/docs/direct-charge/mpesa).
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY);
 
 const mpesa =  async () =>{
@@ -583,7 +583,7 @@ Sample Response
 This describes how to collect payments via Ghana mobile money. We go into more details on the payment flow itself [here](https://developer.flutterwave.com/docs/direct-charge/ghana-mobile-money).
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY);
 
 const Gh_mobilemoney =  async () =>{
@@ -644,7 +644,7 @@ Sample Response
 This describes how to collect payments via Rwanda mobile money. We go into more details on the payment flow itself [here](https://developer.flutterwave.com/docs/direct-charge/rwanda-mobile-money).
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY);
 
 const rw_mobile_money =  async ()=>{
@@ -694,7 +694,7 @@ Sample Response
 This describes how to collect payments via Uganda mobile money. We go into more details on the payment flow itself [here](https://developer.flutterwave.com/docs/direct-charge/uganda-mobile-money).
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY);
 
 const ug_mobile_money =  async () =>{
@@ -748,7 +748,7 @@ Sample Response
 This describes how to collect payments via mobile money for Franc (XAF or XOF). We go into more details on the payment flow itself [here](https://developer.flutterwave.com/docs/direct-charge/francophone-mobile-money).
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY);
 
 const franc_mobile_money =  async () =>{
@@ -826,7 +826,7 @@ Sample Response
 This describes how to collect payments via  Zambia  mobile money. We go into more details on the payment flow itself [here](https://developer.flutterwave.com/docs/direct-charge/zambia-mobile-money).
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY);
 
 const zambia_mobile_money =  async () =>{
@@ -871,7 +871,7 @@ Sample Response
 This describes how to collect payments via  Tanzania  mobile money. You can get more information on Tanzania mobile money [here](https://developer.flutterwave.com/reference/endpoints/charge#tanzania-mobile-money)
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY);
 
 const tanzania_mobile_money =  async () =>{
@@ -944,7 +944,7 @@ Sample Response
 This describes how to collect payments via enaira. We go into more details on the payment flow itself [here](https://developer.flutterwave.com/docs/direct-charge/enaira).
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY);
 
 const eNaira =  async () =>{
@@ -1018,7 +1018,7 @@ Sample Response
 This describes how to collect payments via Apple Pay. We go into more details on the payment flow itself [here](https://developer.flutterwave.com/docs/direct-charge/apple-pay).
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY);
 
 const applePay =  async () =>{
@@ -1104,7 +1104,7 @@ Sample Response
 This describes how to collect payments via Google Pay. We go into more details on the payment flow itself [here](https://developer.flutterwave.com/docs/direct-charge/google-pay).
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY);
 
 const googlePay =  async () =>{

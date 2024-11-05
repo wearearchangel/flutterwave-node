@@ -21,7 +21,7 @@ Manage Virtual Cards via any of these methods:
 This describes how to create a new virtual card
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY);
 
@@ -99,7 +99,7 @@ Sample Response
 This describes how to Get all virtual cards
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -182,7 +182,7 @@ Sample Response
 This describes how to fetch a virtual card
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -244,7 +244,7 @@ Sample Response
 This describes how to fund an existing virtual card
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -284,7 +284,7 @@ Sample Response
 This describes how to terminate a virtual card
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -322,7 +322,7 @@ Sample Response
 This describes how to fetch transactions by date range on a single card
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -383,7 +383,7 @@ Sample Response
 This describes how to withdraw existing funds from a virtual card
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -424,7 +424,7 @@ Sample Response
 This describes how to block a virtual card
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -465,7 +465,7 @@ Sample Response
 This describes how to unblock a virtual card
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 

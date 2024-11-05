@@ -4,3 +4,8 @@ node_modules
 .env
 .prettierrc.json
 .eslintrc.json
+
+# Coverage files
+coverage/
+coverage.lcov
+.nyc_output/

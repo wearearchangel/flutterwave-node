@@ -1,4 +1,31 @@
 # Changelog
+
+## 3.0.0 | 2024-11-5
+Major version update with significant changes to package structure and functionality.
+
+### Breaking Changes
+- [REFACTOR] Renamed the package from `flutterwave-node-v3` to `flutterwave-node@v3`.
+- [REFACTOR] Renamed default Subaccount to `CollectionSubaccount`.
+
+### New Features
+- [FEATURE] Introduced a central Subaccount. This new subaccount structure creates a payout account and uses the virtual bank details as the settlement details of the collection subaccount, allowing the entire subaccount process to be virtual.
+- [FEATURE] Introduced Payout Subaccount to the SDK. This adds the missing payout subaccount functionality that exists publicly via the API.
+- [FEATURE] Allow collection subaccounts to be filtered by `subaccount_id`.
+
+### Bug Fixes
+- [FIXED] Added `start_date` parameter to resolve subaccount visibility issue in live environment. This allows developers to retrieve existing email addresses, helps resolve the "Email address already exists" error when creating new subaccounts, and enables fetching subaccounts based on existing emails.
+- [FIXED] Restricted tests to the tests directory to prevent running tests from dependencies.
+
+### Chores and Improvements
+- [CHORE] Updated package.json text and lock file version.
+- [CHORE] Added husky to workflow for an improved development process.
+- [CHORE] Configured to ignore coverage files in version control.
+
+### Known Issues
+- SDK documentation updates are pending for the new Subaccount and Payout Subaccount features.
+
+Note: This major version update may require adjustments in integration code. Please refer to the updated documentation for migration guidelines.
+
 ## 1.1.12 | 2024-09-27
 Update the list schema
 

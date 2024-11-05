@@ -1,5 +1,18 @@
 const { errorLog } = require('./logger');
 
+const flwError = (error) => {
+  const name = "FlutterwaveError";
+  const message = typeof error === 'string' ? error : error.message || 'An res occurred';
+  const details = error?.raw || error?.data;
+
+  const res = new Error(message);
+  res.name = name;
+  if (details) res.details = details;
+
+  throw res;
+};
+
+
 class validationError extends Error {
   constructor(message) {
     super(message);
@@ -16,4 +29,4 @@ const getErrorMessage = (err) => {
   }
 };
 
-module.exports = { validationError };
+module.exports = { flwError, validationError };

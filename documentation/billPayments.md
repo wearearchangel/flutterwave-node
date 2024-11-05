@@ -26,7 +26,7 @@ This describes how to create bill payments
 
 ```javascript
 
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -78,7 +78,7 @@ This describes  how to create bulk bills payment
 
 ```javascript
 
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -139,7 +139,7 @@ This describes  how to  get the status of a bill purchase
 
 ```javascript
 
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -193,7 +193,7 @@ This describes  how to  update bills order
 
 ```javascript
 
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -244,7 +244,7 @@ This describes  how to validate services like DSTV smartcard no, Meter number et
 
 ```javascript
 
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -298,7 +298,7 @@ This describes  how to fetch all bill categories on your account
 
 ```javascript
 
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -608,7 +608,7 @@ This describes  how to get all government agencies you can pay into
 
 ```javascript
 
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -656,7 +656,7 @@ This describes  how to get amount to be paid for a product
 
 ```javascript
 
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -725,7 +725,7 @@ This describes  how to get bill payments
 
 ```javascript
 
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -810,7 +810,7 @@ This describes  how to get all products under a government agency.
 
 ```javascript
 
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -871,7 +871,7 @@ This describes  how to create an order using the biller code and the product Id
 
 ```javascript
 
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 

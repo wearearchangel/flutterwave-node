@@ -18,7 +18,7 @@ Verify user information via any of these methods:
 This describes how to get all wallet balances
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -132,7 +132,7 @@ This describes how to get balances for specific currencies
 
 ```javascript
 
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -175,7 +175,7 @@ This describes how to resolve a bank account to get the account holder's details
 
 ```javascript
 
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -217,7 +217,7 @@ Sample Response
 This describes how to initiate bvn consent flow for your customer.
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -262,7 +262,7 @@ Sample Response
 This describes how to Verify consent and retirve the customer's BVN information.
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 

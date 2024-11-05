@@ -5,9 +5,9 @@
 # Flutterwave v3 NodeJS Library
 
 ![Node.js Package](https://github.com/Flutterwave/Flutterwave-node-v3/workflows/Node.js%20Package/badge.svg)
-![npm](https://img.shields.io/npm/v/flutterwave-node-v3)
-![npm](https://img.shields.io/npm/dt/flutterwave-node-v3)
-![NPM](https://img.shields.io/npm/l/flutterwave-node-v3)
+![npm](https://img.shields.io/npm/v/flutterwave-node)
+![npm](https://img.shields.io/npm/dt/flutterwave-node)
+![NPM](https://img.shields.io/npm/l/flutterwave-node)
 
 ## Introduction
 
@@ -48,14 +48,14 @@ Available features include:
 To install the package, run the following command in your Node terminal:
 
 ```sh
-npm install flutterwave-node-v3
+npm install flutterwave-node
 ```
 
 
 ## Initialization
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('flutterwave-node');
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY);
 ```
 
@@ -78,7 +78,7 @@ You can get your process.env.FLW_PUBLIC_KEY and process.env.FLW_SECRET_KEY from 
 12. [Ebills](documentation/ebills.md)
 13. [Misc](documentation/misc.md)
 14. [Virtual Cards](documentation/virtualCard.md)
-15. [Collection Subaccounts](documentation/subaccount.md)
+15. [Collection Subaccounts](documentation/subaccount-collection.md)
 16. [Payment-plan](documentation/payment-plan.md)
 
 
