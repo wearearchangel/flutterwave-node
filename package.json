@@ -1,13 +1,14 @@
 {
-  "name": "flutterwave-node-v3",
-  "version": "1.1.12",
+  "name": "flutterwave-node",
+  "version": "3.0.1",
   "description": "The extended Node.JS library for Flutterwave v3 payment APIs",
   "main": "index.js",
   "scripts": {
-    "test": "mocha **/*.test.js",
+    "test": "mocha test/**/*.test.js",
     "test-watch": "nodemon --exec \"npm test\"",
     "coverage": "nyc npm run test",
-    "report-coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
+    "report-coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+    "prepare": "husky"
   },
   "nyc": {
     "coverage": "test",
@@ -43,12 +44,14 @@
     "eslint": "^8.33.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.27.5",
+    "husky": "^9.1.6",
     "mocha": "^9.2.2",
     "nyc": "^15.1.0",
     "prettier": "2.8.3",
     "should": "^13.2.3",
     "sinon": "^15.0.1",
-    "sinon-chai": "^3.7.0"
+    "sinon-chai": "^3.7.0",
+    "standard-version": "^9.5.0"
   },
   "directories": {
     "lib": "lib",
@@ -56,10 +59,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wearearchangel/flutterwave-node-v3.git"
+    "url": "git+https://github.com/wearearchangel/flutterwave-node.git"
   },
   "bugs": {
-    "url": "https://github.com/wearearchangel/flutterwave-node-v3/issues"
+    "url": "https://github.com/wearearchangel/flutterwave-node/issues"
   },
-  "homepage": "https://github.com/wearearchangel/flutterwave-node-v3#readme"
+  "homepage": "https://github.com/wearearchangel/flutterwave-node#readme"
 }

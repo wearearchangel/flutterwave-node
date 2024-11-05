@@ -19,7 +19,7 @@ Manage Collection Subaccounts via any of these methods:
 This describes how to create a subaccount on Flutterwave
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -79,7 +79,7 @@ Sample Response
 This describes how to get all subaccounts
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -278,7 +278,7 @@ Sample Response
 This describes how to fetch a subaccount using the sub-account's ID
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -328,7 +328,7 @@ Sample Response
 This describes how to update a subaccount
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -390,7 +390,7 @@ Sample Response
 This describes how to delete a subaccount
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
