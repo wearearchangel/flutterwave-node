@@ -17,7 +17,7 @@ This describes how to create an otp
 
 ```javascript
 
-const Flutterwave = require('flutterwave-node');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -83,7 +83,7 @@ This describes how to validate an otp
 
 ```javascript
 
-const Flutterwave = require('flutterwave-node');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 

@@ -21,7 +21,7 @@ This describes how to fetch all transactions on your account
 
 ```javascript
 
-const Flutterwave = require('flutterwave-node');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -334,7 +334,7 @@ This describes how Get transaction fees
 
 ```javascript
 
-const Flutterwave = require('flutterwave-node');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -384,7 +384,7 @@ This describes how resend a failed transaction webhook to your server
 
 ```javascript
 
-const Flutterwave = require('flutterwave-node');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -427,7 +427,7 @@ This describes how to initiate a transaction refund
 
 ```javascript
 
-const Flutterwave = require('flutterwave-node');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -484,7 +484,7 @@ This describes how Verify transactions using the transaction reference tx_ref
 
 ```javascript
 
-const Flutterwave = require('flutterwave-node');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -560,7 +560,7 @@ This describes how view Transaction Timeline
 
 ```javascript
 
-const Flutterwave = require('flutterwave-node');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 

@@ -15,7 +15,7 @@ Fetch Bank details via any of these methods:
 This describes how to get list of banks you can transfer to
 
 ```javascript
-const Flutterwave = require('flutterwave-node');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -359,7 +359,7 @@ Sample Response
 This describes how to get a list of bank branches
 
 ```javascript
-const Flutterwave = require('flutterwave-node');
+const Flutterwave = require('wearearchangel/flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
