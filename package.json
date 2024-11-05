@@ -1,7 +1,7 @@
 {
   "name": "flutterwave-node-v3",
   "version": "1.1.12",
-  "description": "The official Node.JS library for Flutterwave v3 payment APIs",
+  "description": "The extended Node.JS library for Flutterwave v3 payment APIs",
   "main": "index.js",
   "scripts": {
     "test": "mocha **/*.test.js",
@@ -20,8 +20,8 @@
     ]
   },
   "keywords": [],
-  "author": "Flutterwave Developers",
-  "license": "MIT",
+  "author": "The Archangel Interactive team",
+  "license": "UNLICENSED",
   "dependencies": {
     "axios": "^0.21.4",
     "bluebird": "^3.7.2",
@@ -56,10 +56,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Flutterwave/Flutterwave-node-v3.git"
+    "url": "git+https://github.com/wearearchangel/flutterwave-node-v3.git"
   },
   "bugs": {
-    "url": "https://github.com/Flutterwave/Flutterwave-node-v3/issues"
+    "url": "https://github.com/wearearchangel/flutterwave-node-v3/issues"
   },
-  "homepage": "https://github.com/Flutterwave/Flutterwave-node-v3#readme"
+  "homepage": "https://github.com/wearearchangel/flutterwave-node-v3#readme"
 }
