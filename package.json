@@ -4,7 +4,7 @@
   "description": "The extended Node.JS library for Flutterwave v3 payment APIs",
   "main": "index.js",
   "scripts": {
-    "test": "mocha **/*.test.js",
+    "test": "mocha test/**/*.test.js",
     "test-watch": "nodemon --exec \"npm test\"",
     "coverage": "nyc npm run test",
     "report-coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
