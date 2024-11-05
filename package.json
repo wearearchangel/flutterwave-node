@@ -1,6 +1,6 @@
 {
   "name": "flutterwave-node",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "The extended Node.JS library for Flutterwave v3 payment APIs",
   "main": "index.js",
   "scripts": {
