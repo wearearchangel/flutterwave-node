@@ -426,6 +426,16 @@ const collectionSubaccountSchema = joi.object({
   split_type: joi.string().valid('percentage', 'flat'),
 });
 
+const payoutSubaccountSchema = joi.object({
+  account_name: joi.string().trim().max(100).required(),
+  account_reference: joi.string().alphanum().trim().length(20).optional(),
+  bank_code: joi.number().integer().max(3).valid(35, 232).optional(),
+  barter_id: joi.string().trim().max(100).optional(),
+  country: joi.string().uppercase().length(2).default("NG").required(),
+  email: joi.string().email().required(),
+  mobilenumber: joi.string().required(),
+});
+
 // initiate a transfer
 const transferSchema = joi.object({
   amount: joi.number().positive().required(),
@@ -690,6 +700,7 @@ module.exports = {
   planSchema,
   refundSchema,
   collectionSubaccountSchema,
+  payoutSubaccountSchema,
   transferSchema,
   tokenSchema,
   ussdChargeSchema,
