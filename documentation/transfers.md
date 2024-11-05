@@ -21,7 +21,7 @@ This describes how to initiate a transfer
 For more info about the payload parameteres definition, check  [here](https://developer.flutterwave.com/reference#create-a-transfer)
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -84,7 +84,7 @@ Sample Response
 This describes how to initiate a bulk transfer
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -145,7 +145,7 @@ Sample Response
 This describes how to get applicable transfer fee
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -191,7 +191,7 @@ Sample Response
 This describes how to fetch all transfers on your account
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -474,7 +474,7 @@ This describes how to fetch a single transfer on your account
 
 ```javascript
 
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -519,7 +519,7 @@ Sample Response
 This will show you how to initiate a transfer from one Flutterwave wallet to another
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 

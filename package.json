@@ -1,6 +1,6 @@
 {
-  "name": "flutterwave-node-v3",
-  "version": "1.1.12",
+  "name": "flutterwave-node",
+  "version": "3.0.0",
   "description": "The extended Node.JS library for Flutterwave v3 payment APIs",
   "main": "index.js",
   "scripts": {
@@ -50,7 +50,8 @@
     "prettier": "2.8.3",
     "should": "^13.2.3",
     "sinon": "^15.0.1",
-    "sinon-chai": "^3.7.0"
+    "sinon-chai": "^3.7.0",
+    "standard-version": "^9.5.0"
   },
   "directories": {
     "lib": "lib",
@@ -58,10 +59,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wearearchangel/flutterwave-node-v3.git"
+    "url": "git+https://github.com/wearearchangel/flutterwave-node.git"
   },
   "bugs": {
-    "url": "https://github.com/wearearchangel/flutterwave-node-v3/issues"
+    "url": "https://github.com/wearearchangel/flutterwave-node/issues"
   },
-  "homepage": "https://github.com/wearearchangel/flutterwave-node-v3#readme"
+  "homepage": "https://github.com/wearearchangel/flutterwave-node#readme"
 }
