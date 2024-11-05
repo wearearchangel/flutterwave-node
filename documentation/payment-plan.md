@@ -19,7 +19,7 @@ Manage Payment Plans via any of these methods:
 This describes  how to create a payment plan
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -66,7 +66,7 @@ Sample Response
 This describes how to fetch all payment plans on your account
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -216,7 +216,7 @@ Sample Response
 This describes how to get a single payment plan
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -261,7 +261,7 @@ Sample Response
 This describes how to update an existing payment plan
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -307,7 +307,7 @@ Sample Response
 This describes how to cancel an existing payment plan
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 

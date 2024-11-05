@@ -19,7 +19,7 @@ This describes how to create a transfer beneficiary
 
 ```javascript
 
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -65,7 +65,7 @@ Sample Response
 This describes how to get all beneficiaries
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -191,7 +191,7 @@ Sample Response
 This describes how to get a single transfer beneficiary details
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -241,7 +241,7 @@ This describes how to delete a transfer beneficiary
 
 
 ```javascript
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 

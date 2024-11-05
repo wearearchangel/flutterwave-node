@@ -16,7 +16,7 @@ This describes how to create a new Ebills order
 
 ```javascript
 
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 
@@ -71,7 +71,7 @@ This describes how to update order for ebills
 
 ```javascript
 
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('flutterwave-node');
 
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY  );
 

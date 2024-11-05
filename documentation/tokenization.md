@@ -19,7 +19,7 @@ This describes how to create a tokenized charge
 
 ```javascript
 
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('flutterwave-node');
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY);
 
 const charge_with_token =  async()=>{
@@ -101,7 +101,7 @@ This describes how to update details tied to a card token
 
 ```javascript
 
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('flutterwave-node');
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY);
 
 const update_token = async () => {
@@ -215,7 +215,7 @@ This describes how to get the status of a bulk tokenized charge
 
 ```javascript
 
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('flutterwave-node');
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY);
 
 const fetchBulk = async () => {
@@ -260,7 +260,7 @@ This describes how to get specific bulk tokenized charge transactions
 
 ```javascript
 
-const Flutterwave = require('flutterwave-node-v3');
+const Flutterwave = require('flutterwave-node');
 const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY);
 
 const fetch_charge_transactions = async () => {
