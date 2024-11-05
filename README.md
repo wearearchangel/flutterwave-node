@@ -78,7 +78,7 @@ You can get your process.env.FLW_PUBLIC_KEY and process.env.FLW_SECRET_KEY from 
 12. [Ebills](documentation/ebills.md)
 13. [Misc](documentation/misc.md)
 14. [Virtual Cards](documentation/virtualCard.md)
-15. [Collection Subaccounts](documentation/subaccount.md)
+15. [Collection Subaccounts](documentation/subaccount-collection.md)
 16. [Payment-plan](documentation/payment-plan.md)
 
 

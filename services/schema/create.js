@@ -412,7 +412,7 @@ const refundSchema = joi.object({
 });
 
 // create a subaccount
-const subaccountSchema = joi.object({
+const collectionSubaccountSchema = joi.object({
   account_bank: joi.string().min(3).max(11).required(),
   account_number: joi.string().trim().max(20).required(),
   business_name: joi.string().trim().max(100).required(),
@@ -689,7 +689,7 @@ module.exports = {
   momoSchema,
   planSchema,
   refundSchema,
-  subaccountSchema,
+  collectionSubaccountSchema,
   transferSchema,
   tokenSchema,
   ussdChargeSchema,

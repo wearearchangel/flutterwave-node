@@ -1,15 +1,15 @@
 const { logger } = require('../../utils/logger');
 const { validator } = require('../../utils/validator');
-const { fetchSchema } = require('../schema/base');
+const { listSchema } = require('../schema/base');
 
 async function service(data, _rave) {
-  validator(fetchSchema, data);
-  data.method = 'DELETE';
+  validator(listSchema, data);
+  data.method = 'PUT';
   const { body: response } = await _rave.request(
     `/v3/subaccounts/${data.id}`,
     data,
   );
-  logger(`Delete a subaccount`, _rave);
+  logger(`Update collection subaccount details`, _rave);
   return response;
 }
 

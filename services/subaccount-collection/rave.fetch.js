@@ -9,7 +9,7 @@ async function service(data, _rave) {
     `/v3/subaccounts/${data.id}`,
     data,
   );
-  logger(`Fetch a subaccount`, _rave);
+  logger(`Fetch a collection subaccount`, _rave);
   return response;
 }
 
